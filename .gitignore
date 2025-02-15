@@ -1,0 +1,24 @@
+# Ignore generated files
+/generated/
+# Ignore static files except .htaccess
+/pub/static/*
+!/pub/static/.htaccess
+/var/cache/
+var/page_cache/
+var/session/
+var/log/
+var/report/
+
+# Ignore environment-specific files
+/app/etc/env.php
+/app/etc/config.php
+
+# Ignore backups
+*.tar.gz
+*.zip
+
+# Ignore Composer dependencies (optional)
+vendor/
+
+# Node & Frontend build files
+/node_modules/
